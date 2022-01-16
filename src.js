@@ -79,12 +79,7 @@ client.on('messageCreate', (e) => {
 
     checks(e, () => {
         if (cmd) {
-            var or;
-            var or2;
-            items = ""
-            list = []
-            var price
-            ign = args[args.length - 1]
+            var or; var or2; items = ""; list = []; var price; ign = args[args.length - 1]
             args.splice(args.length - 1, 1)
             for (i=0; i<args.length; i++) {
                 if (args[i][0] == "(") {
